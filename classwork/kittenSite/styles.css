@@ -1,0 +1,38 @@
+html, body {
+	margin:0;
+	top:0;
+	left:0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#topnav {
+	width:100%;
+	background-color:white;
+	text-align: center;
+	position:fixed;
+	top: 0;
+}
+
+#topnav div {
+	display: inline-block;
+}
+
+#topnav h1 {
+	font-weight:300;
+	
+}
+ 
+
+#sidenav {
+	display: none;
+}
+
+.gallery {
+    width: 50%;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.post img {
+	width: 100%;
+}

@@ -1,0 +1,35 @@
+html, body {
+top: 0;
+left: 0;
+font-family: 'Catamaran', sans-serif;
+ 
+
+height: 3000px;
+background: linear-gradient(  #0000 , #1fc8db , #2cb5e8);
+}
+ 
+
+
+.center {
+  margin: auto;
+  width: 22%;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+
+}
+
+.outside {
+
+
+  margin: 2rem  0 0 26rem;
+  width: 22%;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+
+}
+
+
+
+
+
+}
