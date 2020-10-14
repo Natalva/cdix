@@ -1,0 +1,172 @@
+ 
+
+.flex-container {
+  display: flex;
+/*  flex-flow: row wrap;
+  justify-content: space-around;*/
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ 
+
+
+ 
+#rcorners {
+
+   border-radius: 29px;
+  border: 2px solid #848484;
+  padding: 20px; 
+  width: 140px;
+  height: 60px; 
+
+}
+
+.bio{
+
+position: absolute;
+width: 662px;
+height: 445px;
+left: 125px;
+top: 249px;
+
+font-family: Gayathri;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 171.2%;
+/* or 89px */
+color: #848484;
+
+}
+
+
+
+
+.proj{
+/* Projects */
+position: absolute;
+width: 433px;
+height: 92px;
+left: 87px;
+top: 10px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 171.2%;
+/* or 72px */
+
+color: #848484;
+}
+
+.cont{
+	/*   Contact */
+
+position: absolute;
+width: 375px;
+height: 92px;
+left: 1000px;
+top: 10px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 171.2%;
+/* or 72px */
+color: #848484;
+}
+
+
+
+.au{
+ /*about*/
+
+position: absolute;
+width: 128px;
+height: 72px;
+left: 1162px;
+top: 10px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 171.2%;
+/* identical to box height, or 72px */
+color: #848484;
+}
+
+.menu{
+/*dropdown menu*/
+position: absolute;
+width: 58px;
+height: 58px;
+left: 1290px;
+top: 60px;
+
+}
+
+
+.ads{
+/*advert img*/
+position: absolute;
+width: 482px;
+height: 702px;
+left: 881px;
+top: 198px;
+
+background: url(pink.jpg);
+
+}
+.switch{
+	/* Lightmode */
+
+
+position: absolute;
+width: 433px;
+height: 92px;
+left: 87px;
+top: 650px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 171.2%;
+/* or 55px */
+
+
+color: #848484;
+}
+
+
+.switch1{
+	/* switch 1 click */
+
+position: absolute;
+width: 39px;
+height: 25px;
+left: 226px;
+top: 700px;
+
+
+
+}
+
+
+body{
+ /*background-image: url("img/G4.png") 
+ */
+background-image: url("img/G4.png");
+background-repeat: no-repeat; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  
+ }
+
