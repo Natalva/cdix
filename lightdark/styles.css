@@ -1,0 +1,129 @@
+/* 
+body{
+ background-image: url("img/G4.png") 
+
+ }*/
+
+ .bg{
+
+ background-image: url("img/G4.png") 
+  height: 100%;
+
+ /* background-position: center;
+  background-repeat: no-repeat;*/
+  background-size: cover;
+
+
+ }
+
+
+.bio{
+
+position: absolute;
+width: 662px;
+height: 445px;
+left: 125px;
+top: 299px;
+
+font-family: Gayathri;
+font-style: normal;
+font-weight: normal;
+font-size: 52px;
+line-height: 171.2%;
+/* or 89px */
+color: #848484;
+
+}
+
+.cont{
+
+	/* About Contact */
+
+position: absolute;
+width: 375px;
+height: 92px;
+left: 1032px;
+top: 41px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 171.2%;
+/* or 72px */
+color: #848484;
+}
+
+.menu{
+/*dropdown menu*/
+position: absolute;
+width: 58px;
+height: 58px;
+left: 1318px;
+top: 42px;
+
+}
+
+.circle{
+ /* Ellipse 9 */
+ 
+
+position: absolute;
+width: 186px;
+height: 92px;
+left: 87px;
+top: 41px;
+
+border: 2px solid #848484;
+box-sizing: border-box;
+}
+
+.proj{
+/* Projects */
+position: absolute;
+width: 433px;
+height: 92px;
+left: 113px;
+top: 49px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 42px;
+line-height: 171.2%;
+/* or 72px */
+
+color: #848484;
+}
+
+.switch1{
+/* Lightmode */
+position: absolute;
+width: 433px;
+height: 92px;
+left: 81px;
+top: 822px;
+
+font-family: Abel;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 171.2%;
+/* or 55px */
+color: #848484;
+}
+
+.ads{
+
+position: absolute;
+width: 482px;
+height: 702px;
+left: 881px;
+top: 198px;
+
+background: url(pink.jpg);
+
+}
+
+
+
