@@ -1,0 +1,61 @@
+html, body {
+  font-family: 'Eater', cursive;
+  width:100%;
+  overflow-x:none;
+  background: rgb(2,0,36);
+  background: linear-gradient(  orangered ,lightpink);
+}
+
+h1{
+  position:relative;
+  font-size:8em;
+  color:black;
+}
+
+/*svg hover demo-----------*/
+svg path{
+  stroke:grey;
+ 
+  stroke-width:10px;
+}
+
+.hover-effect:hover path{
+  stroke:grey;
+  fill:orange;
+}
+
+.hover-effect-skel:hover path{
+  stroke:grey;
+  fill:orange;
+}
+
+/*positioning demo-----------*/
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:nowrap;
+  
+}
+.candle{
+  flex:1;
+  
+}
+.spook{
+  flex:2;
+}
+
+.spook h1{
+  z-index:3;
+  position:absolute;
+  margin-bottom:0px;
+  line-height:200px;
+  
+}
+.spook svg{
+  z-index:10;
+  position:relative;
+}
+
+ 
