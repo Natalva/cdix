@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src='script.js'> </script>
+  </head>  
+  
+  <style type= "text/css">
+    #food3 {
+      background-color:black;
+      width:10vw;
+      height:10vw;
+    }
+  </style>
+    
+<body>
+    
+    <input placeholder="Enter your comfort food" type="text" name="food">
+   
+    <div id="food2">2</div>
+    
+    <div id="food3">3</div>
+    
+    <input placeholder="Enter the best food in NYC" type="text" name="NYC">
+    
+    <div id="food4">4</div>
+    
+</body>
+  
+<script>
+  let food = document.querySelector ('input'[name="food"]') 
+  let food2 = document.querySelector (#food2)
+  let food3 = document.querySelector (#food3)
+  let NYC = document.querySelector ('input'[name="NYC"]')
+  let food4 = document.querySelector (#food4)
+
+  
+  console.log(food)
+  console.log(food2)
+  console.log (food3)
+  console.log (NYC)
+  console.log (food4)
+  
+  food.onchange=function(){
+    food2.innerHTML='Your comfort food is' + food.value
+  }
+  
+  food3.onclick=function(){
+    if (food.style.backgroundColor=='green'){
+      food.style.backgroundColor='black'
+    }else{
+      food.style.backgroundColor='green'
+    }
+  }
+
+</script>
+
+</html>
