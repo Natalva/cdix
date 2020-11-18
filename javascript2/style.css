@@ -1,0 +1,20 @@
+ 
+ 
+body {
+  	background-color: lightblue;
+	display:flex;
+	justify-content:center;
+  
+}
+ 
+
+	.flexbox {
+		width:98%;
+		height:100vh;
+		padding:0;
+		display:inline-flex;
+		flex-wrap: nowrap;
+		margin-top: 20vh;
+		margin-left: 0;
+ 
+	}

@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Birds</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Xanh+Mono&display=swap" rel="stylesheet">
+    </head>
+    <style> 
+        body {
+ font-family: 'Julius Sans One', sans-serif;
+           font-size:40px; 
+        letter-spacing: 6px; 
+          font-weight: bold;
+         max-width: 800px;
+        margin: auto;
+        text-align: center;
+        }
+
+        
+
+        .question{
+
+          position:fixed;
+
+          top:700;
+        }
+
+ a {
+        background-color: skyblue;
+           color: white;
+          padding: 1em 1.5em;
+          position: relative;
+          text-decoration: none;
+          text-transform: uppercase;
+            border-radius: 25px;
+
+        }
+
+        a:hover {
+          background-color: orange;
+        }
+
+        a:active {
+          box-shadow: none;
+/*          top: 5px;
+*/        }
+
+
+    </style>
+    <body> 
+
+ 
+  <div id="typedtext">
+ 
+        <p style = "display:absolute"></p>
+
+
+</div>
+
+<div class='question'>
+        <a href="page3.html"> Does God exist? </a>
+
+        <script>
+window.alert("Was the number finite or infinite? The problem concerns the existence of God. If He exists, the number is finite, because He knows how many birds I saw." );
+</script>
+
+
+    </body>
+</div>
+
+
+
+      <script>
+      	// set up text to print, each item in array is new line
+var aText = new Array(
+" If God does not exist, the number is infinite, because no one could keep tally. In my case, let us say I saw fewer than ten birds and more than one but did not see nine, eight, seven, six, five, four, three, or two birds. ", 
+"  I saw a number between ten and one, which is not nine, eight, seven, six, five, etc...."
+);
+var iSpeed = 50; // time delay of print out
+var iIndex = 0; // start printing array at this posision
+var iArrLength = aText[0].length; // the length of the text array
+var iScrollAt = 20; // start scrolling up at this many lines
+ 
+var iTextPos = 0; // initialise text position
+var sContents = ''; // initialise contents variable
+var iRow; // initialise current row
+ 
+function typewriter()
+{
+ sContents =  ' ';
+ iRow = Math.max(0, iIndex-iScrollAt);
+ var destination = document.getElementById("typedtext");
+ 
+ while ( iRow < iIndex ) {
+  sContents += aText[iRow++] + '<br />';
+ }
+ destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+ if ( iTextPos++ == iArrLength ) {
+  iTextPos = 0;
+  iIndex++;
+  if ( iIndex != aText.length ) {
+   iArrLength = aText[iIndex].length;
+   setTimeout("typewriter()", 500);
+  }
+ } else {
+  setTimeout("typewriter()", iSpeed);
+ }
+}
+
+
+typewriter();
+      	
+      </script>
+</html>
